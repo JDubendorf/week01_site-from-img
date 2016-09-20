@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site from Image</title>
+	<style>
+	/*	* {
+    	box-sizing: border-box;
+		} */
+		body {
+			background-color: lightgrey;
+			margin: 0;
+			padding: 5px;
+		}
+		.float {
+			float: left;
+		}
+		.boxLeft {
+			width: 23%;
+		}
+		.boxCenter {
+			width: 62%;	
+		}
+		.boxRight {
+			width: 15%;	
+		}
+		.box {
+			border: 1px dotted blue;
+			background-color: white;
+			height: 450px;
+			margin-right: 2px;
+			margin-left: 2px;
+			padding: 20px 20px 0 20px;
+		}
+		.boxImg {
+			border: 1px dotted blue;
+			background-color: white;
+			height: 440px;
+			padding: 30px 20px 0 20px;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+		figure {
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			color: blue;
+			margin-left: 23px;
+		}
+	</style>
+</head>
+<body>
+	<h1>The JPEG Image</h1>	
+	<div class="float boxLeft">
+		<div class="box">
+			<p>The term "JPEG" is an acronym for the Joint Photographic Experts Group, which created the standard. The MIME media type for JPEG is image/jpeg, except in older Internet Explorer versions, which provides a MIME type of image/pjpeg when uploading JPEG images. JPEG files usually have a filename extension of .jpg or .jpeg.</p>
+			<p>JPEG/JFIF supports a maximum image size of 65, 535 x 65, 535 pixels, hence up to 4 gigapixels (for an aspect ratio of 1:1).</p>
+			<p>(From <br><a href="https://en.wikipedia.org/wiki/JPEG")>https://en.wikipedia.org/wiki/JPEG</a>)</p>
+		</div>
+	</div>
+	<div class="float boxCenter">
+		<div class="boxImg">
+			<figure>
+				<img src="jpeg-home.jpg" alt="pond">
+				<p>(Image from <a href="http://jpeg.org/images/jpeg-home.jpg">http://jpeg.org/images/jpeg-home.jpg</a>)</p>
+			</figure>
+		</div>	
+	</div>
+	<div class="float boxRight">
+		<div class="box">
+			<p><strong>Other Image Types</strong></p>
+			<ul>
+				<li>jpg</li>
+				<li>png</li>
+				<li>gif</li>
+				<li>bmp</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
